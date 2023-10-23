@@ -1,0 +1,22 @@
+/* Estilos para pantallas grandes */
+.app-container {
+  display: flex;
+}
+
+.content-container {
+  padding-top: 50px;
+ 
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .app-container {
+    display: block;
+  }
+
+  .content-container {
+    padding-top: 0;
+    padding-left: 0;
+  }
+}
+
